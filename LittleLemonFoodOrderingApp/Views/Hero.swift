@@ -1,9 +1,3 @@
-//
-//  Hero.swift
-//  LittleLemonApp
-//
-//  Created by Jevgeni Vakker on 19.03.2023.
-//
 
 import SwiftUI
 

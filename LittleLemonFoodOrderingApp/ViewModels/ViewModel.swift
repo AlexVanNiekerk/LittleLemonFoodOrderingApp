@@ -1,10 +1,3 @@
-//
-//  viewModel.swift
-//  LittleLemonApp
-//
-//  Created by Jevgeni Vakker on 25.03.2023.
-//
-
 import Foundation
 import Combine
 

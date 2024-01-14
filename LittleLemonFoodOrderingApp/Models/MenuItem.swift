@@ -1,10 +1,3 @@
-//
-//  MenuItem.swift
-//  LittleLemonApp
-//
-//  Created by Jevgeni Vakker on 21.03.2023.
-//
-
 import Foundation
 
 
