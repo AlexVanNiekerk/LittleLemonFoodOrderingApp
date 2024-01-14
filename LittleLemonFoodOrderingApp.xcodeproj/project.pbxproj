@@ -11,6 +11,12 @@
 		84BC294D2B540FA70021E542 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BC294C2B540FA70021E542 /* ContentView.swift */; };
 		84BC294F2B540FA90021E542 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84BC294E2B540FA90021E542 /* Assets.xcassets */; };
 		84BC29532B540FA90021E542 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84BC29522B540FA90021E542 /* Preview Assets.xcassets */; };
+		84BC297B2B54137B0021E542 /* PG_LittleLemon_StyleGuide.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 84BC29752B54137A0021E542 /* PG_LittleLemon_StyleGuide.pdf */; };
+		84BC297C2B54137B0021E542 /* my-style-guide.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 84BC29762B54137B0021E542 /* my-style-guide.pdf */; };
+		84BC297D2B54137B0021E542 /* Canvas_Wireframe_Final.fig in Resources */ = {isa = PBXBuildFile; fileRef = 84BC29772B54137B0021E542 /* Canvas_Wireframe_Final.fig */; };
+		84BC297E2B54137B0021E542 /* my-wireframe.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 84BC29782B54137B0021E542 /* my-wireframe.pdf */; };
+		84BC297F2B54137B0021E542 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 84BC29792B54137B0021E542 /* README.md */; };
+		84BC29802B54137B0021E542 /* Canvas_Wireframe.fig in Resources */ = {isa = PBXBuildFile; fileRef = 84BC297A2B54137B0021E542 /* Canvas_Wireframe.fig */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +45,12 @@
 		84BC29522B540FA90021E542 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		84BC29582B540FA90021E542 /* LittleLemonFoodOrderingAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LittleLemonFoodOrderingAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84BC29622B540FA90021E542 /* LittleLemonFoodOrderingAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LittleLemonFoodOrderingAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84BC29752B54137A0021E542 /* PG_LittleLemon_StyleGuide.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = PG_LittleLemon_StyleGuide.pdf; sourceTree = "<group>"; };
+		84BC29762B54137B0021E542 /* my-style-guide.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "my-style-guide.pdf"; sourceTree = "<group>"; };
+		84BC29772B54137B0021E542 /* Canvas_Wireframe_Final.fig */ = {isa = PBXFileReference; lastKnownFileType = file; path = Canvas_Wireframe_Final.fig; sourceTree = "<group>"; };
+		84BC29782B54137B0021E542 /* my-wireframe.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "my-wireframe.pdf"; sourceTree = "<group>"; };
+		84BC29792B54137B0021E542 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		84BC297A2B54137B0021E542 /* Canvas_Wireframe.fig */ = {isa = PBXFileReference; lastKnownFileType = file; path = Canvas_Wireframe.fig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +81,12 @@
 		84BC293E2B540FA70021E542 = {
 			isa = PBXGroup;
 			children = (
+				84BC29772B54137B0021E542 /* Canvas_Wireframe_Final.fig */,
+				84BC297A2B54137B0021E542 /* Canvas_Wireframe.fig */,
+				84BC29762B54137B0021E542 /* my-style-guide.pdf */,
+				84BC29782B54137B0021E542 /* my-wireframe.pdf */,
+				84BC29752B54137A0021E542 /* PG_LittleLemon_StyleGuide.pdf */,
+				84BC29792B54137B0021E542 /* README.md */,
 				84BC29492B540FA70021E542 /* LittleLemonFoodOrderingApp */,
 				84BC29482B540FA70021E542 /* Products */,
 			);
@@ -208,8 +226,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84BC297B2B54137B0021E542 /* PG_LittleLemon_StyleGuide.pdf in Resources */,
+				84BC297C2B54137B0021E542 /* my-style-guide.pdf in Resources */,
 				84BC29532B540FA90021E542 /* Preview Assets.xcassets in Resources */,
+				84BC297F2B54137B0021E542 /* README.md in Resources */,
 				84BC294F2B540FA90021E542 /* Assets.xcassets in Resources */,
+				84BC29802B54137B0021E542 /* Canvas_Wireframe.fig in Resources */,
+				84BC297D2B54137B0021E542 /* Canvas_Wireframe_Final.fig in Resources */,
+				84BC297E2B54137B0021E542 /* my-wireframe.pdf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
