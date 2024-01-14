@@ -11,9 +11,6 @@
 		84BC294D2B540FA70021E542 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BC294C2B540FA70021E542 /* ContentView.swift */; };
 		84BC294F2B540FA90021E542 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84BC294E2B540FA90021E542 /* Assets.xcassets */; };
 		84BC29532B540FA90021E542 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84BC29522B540FA90021E542 /* Preview Assets.xcassets */; };
-		84BC295D2B540FA90021E542 /* LittleLemonFoodOrderingAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BC295C2B540FA90021E542 /* LittleLemonFoodOrderingAppTests.swift */; };
-		84BC29672B540FA90021E542 /* LittleLemonFoodOrderingAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BC29662B540FA90021E542 /* LittleLemonFoodOrderingAppUITests.swift */; };
-		84BC29692B540FA90021E542 /* LittleLemonFoodOrderingAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BC29682B540FA90021E542 /* LittleLemonFoodOrderingAppUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,10 +38,7 @@
 		84BC29502B540FA90021E542 /* LittleLemonFoodOrderingApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LittleLemonFoodOrderingApp.entitlements; sourceTree = "<group>"; };
 		84BC29522B540FA90021E542 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		84BC29582B540FA90021E542 /* LittleLemonFoodOrderingAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LittleLemonFoodOrderingAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		84BC295C2B540FA90021E542 /* LittleLemonFoodOrderingAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LittleLemonFoodOrderingAppTests.swift; sourceTree = "<group>"; };
 		84BC29622B540FA90021E542 /* LittleLemonFoodOrderingAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LittleLemonFoodOrderingAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		84BC29662B540FA90021E542 /* LittleLemonFoodOrderingAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LittleLemonFoodOrderingAppUITests.swift; sourceTree = "<group>"; };
-		84BC29682B540FA90021E542 /* LittleLemonFoodOrderingAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LittleLemonFoodOrderingAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,8 +70,6 @@
 			isa = PBXGroup;
 			children = (
 				84BC29492B540FA70021E542 /* LittleLemonFoodOrderingApp */,
-				84BC295B2B540FA90021E542 /* LittleLemonFoodOrderingAppTests */,
-				84BC29652B540FA90021E542 /* LittleLemonFoodOrderingAppUITests */,
 				84BC29482B540FA70021E542 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -110,23 +102,6 @@
 				84BC29522B540FA90021E542 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		84BC295B2B540FA90021E542 /* LittleLemonFoodOrderingAppTests */ = {
-			isa = PBXGroup;
-			children = (
-				84BC295C2B540FA90021E542 /* LittleLemonFoodOrderingAppTests.swift */,
-			);
-			path = LittleLemonFoodOrderingAppTests;
-			sourceTree = "<group>";
-		};
-		84BC29652B540FA90021E542 /* LittleLemonFoodOrderingAppUITests */ = {
-			isa = PBXGroup;
-			children = (
-				84BC29662B540FA90021E542 /* LittleLemonFoodOrderingAppUITests.swift */,
-				84BC29682B540FA90021E542 /* LittleLemonFoodOrderingAppUITestsLaunchTests.swift */,
-			);
-			path = LittleLemonFoodOrderingAppUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -268,7 +243,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84BC295D2B540FA90021E542 /* LittleLemonFoodOrderingAppTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,8 +250,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84BC29692B540FA90021E542 /* LittleLemonFoodOrderingAppUITestsLaunchTests.swift in Sources */,
-				84BC29672B540FA90021E542 /* LittleLemonFoodOrderingAppUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
